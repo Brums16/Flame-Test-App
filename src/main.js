@@ -118,7 +118,7 @@ if (mode === 'sandbox'){
     return (
         <div className = 'main'>
             <h2>Sandbox Mode</h2>
-            <p>Click an element to see the corresponding color...</p>
+            <p>Click an element to see its flame color...</p>
         <div className="main-grid">
             <div className="buttons-grid">
             <Button />
@@ -136,7 +136,7 @@ if (mode === 'test'){
     return (
         <div className = 'main'>
             <h2>Test Mode</h2>
-            <p>Click the button that corresponds to the flame color...</p>
+            <p>Click the right element for each flame color...</p>
             <button onClick={newTest} class="start-test-button">Start!</button>
             <div className ="main-grid">
             <div className ="buttons-grid">
