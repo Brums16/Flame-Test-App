@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+
+.bunsen-div {
+  justify-self: center;
+  justify-content: center;
+}
+
+.bunsen-flame {
+  height: 100px;
+  width: 50px;
+  border-radius: 50%
+}
+
+.bunsen-tube {
+  height: 50px;
+  width: 20px;
+  background-color: black;
+  margin: auto
+}
+
+.bunsen-stand {
+  height: 10px;
+  width: 50px;
+  background-color: black;
+  margin: auto
+}
+
+
+.main-grid {
+  display: grid;
+  grid-template-columns: auto auto
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2vh;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: black
+}
+
+.change-mode-button {
+  margin-top: 3vh
+}
+
+.start-test-button {
+  margin-bottom: 3vh
+}
+
+.element-button {
+  background-color: whitesmoke;
+  color: black;
+}
