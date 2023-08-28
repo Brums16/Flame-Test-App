@@ -11,7 +11,7 @@ const Footer = () => {
         <div className = 'footer'>
             
 
-        FOOTER
+        Designed by the super smart LG17.  Copyright LG17 2023
 
             </div>
     )
